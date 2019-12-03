@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'base.html')
+
+def header(request):
+    return render(request, 'main/header_footer.html')
